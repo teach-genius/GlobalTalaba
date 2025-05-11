@@ -1,0 +1,274 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Talaba Student (GTS)</title>
+    <link rel="stylesheet" href="{%static 'css/styles.css'%}">
+    <link href="https://unpkg.com/lucide-static/font/lucide.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo">Global Talaba Student <span class="highlight">(GTS)</span></h1>
+                <button class="mobile-menu-btn" aria-label="Menu">
+                    <i class="lucide-menu"></i>
+                </button>
+                <nav class="desktop-nav">
+                    <ul>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#why-choose">Pourquoi nous</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <nav class="mobile-nav">
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#why-choose">Pourquoi nous</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Votre Avenir Étudiant au Maroc Commence Ici</h1>
+                    <p class="subtitle">Service officiel d'accompagnement des étudiants internationaux</p>
+                    <p class="description">GTS simplifie votre parcours d'intégration avec un accompagnement complet et personnalisé, reconnu par les institutions académiques marocaines.</p>
+                    <div class="cta-buttons">
+                        <a href="#contact" class="btn btn-primary">Commencer votre inscription</a>
+                        <a href="#services" class="btn btn-secondary">Découvrir nos services</a>
+                    </div>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <i class="lucide-users"></i>
+                            <div class="stat-number">1000+</div>
+                            <div class="stat-label">Étudiants accompagnés</div>
+                        </div>
+                        <div class="stat-card">
+                            <i class="lucide-graduation-cap"></i>
+                            <div class="stat-number">15+</div>
+                            <div class="stat-label">Universités partenaires</div>
+                        </div>
+                        <div class="stat-card">
+                            <i class="lucide-building"></i>
+                            <div class="stat-number">98%</div>
+                            <div class="stat-label">Taux de satisfaction</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Target Audience Section -->
+        <section class="target-audience">
+            <div class="container">
+                <h2>Une Solution Adaptée à Chacun</h2>
+                <div class="audience-grid">
+                    <div class="audience-card">
+                        <i class="lucide-users"></i>
+                        <h3>Pour les Étudiants</h3>
+                        <p>Un accompagnement personnalisé pour réussir vos études au Maroc. Nous gérons toutes les démarches administratives pour vous permettre de vous concentrer sur vos études.</p>
+                        <ul class="benefits-list">
+                            <li>Processus simplifié</li>
+                            <li>Support 24/7</li>
+                            <li>Communauté d'étudiants</li>
+                            <li>Kit d'installation</li>
+                        </ul>
+                    </div>
+                    <div class="audience-card">
+                        <i class="lucide-home"></i>
+                        <h3>Pour les Parents</h3>
+                        <p>La garantie d'un accompagnement sérieux et professionnel pour votre enfant. Nous assurons sa sécurité et son confort tout au long de son séjour.</p>
+                        <ul class="benefits-list">
+                            <li>Suivi régulier</li>
+                            <li>Logement sécurisé</li>
+                            <li>Assistance médicale</li>
+                            <li>Rapports mensuels</li>
+                        </ul>
+                    </div>
+                    <div class="audience-card">
+                        <i class="lucide-building"></i>
+                        <h3>Pour les Universités</h3>
+                        <p>Un partenaire fiable qui facilite l'intégration des étudiants internationaux et assure leur suivi administratif complet.</p>
+                        <ul class="benefits-list">
+                            <li>Dossiers conformes</li>
+                            <li>Suivi académique</li>
+                            <li>Support administratif</li>
+                            <li>Communication fluide</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <div class="container">
+                <h2>Nos Services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="https://images.unsplash.com/photo-1592280771190-3e2e4d571952" alt="Préinscriptions universitaires">
+                        </div>
+                        <div class="service-content">
+                            <i class="lucide-school"></i>
+                            <h3>Préinscriptions universitaires</h3>
+                            <p>Assistance complète pour obtenir vos préinscriptions dans les universités marocaines.</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173" alt="Carte de séjour">
+                        </div>
+                        <div class="service-content">
+                            <i class="lucide-credit-card"></i>
+                            <h3>Carte de séjour</h3>
+                            <p>Accompagnement pour toutes les démarches administratives liées à la carte de séjour.</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="https://images.unsplash.com/photo-1572120360610-d971b9d7767c" alt="Recherche de logement">
+                        </div>
+                        <div class="service-content">
+                            <i class="lucide-home"></i>
+                            <h3>Recherche de logement</h3>
+                            <p>Aide personnalisée pour trouver un logement étudiant adapté à vos besoins et votre budget.</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="https://images.unsplash.com/photo-1627483297886-49710ae1fc22" alt="Kit d'équipement">
+                        </div>
+                        <div class="service-content">
+                            <i class="lucide-package"></i>
+                            <h3>Kit d'équipement</h3>
+                            <p>Fourniture d'un kit de base à votre arrivée incluant literie, ustensiles et produits d'hygiène.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Section -->
+        <section id="why-choose" class="why-choose">
+            <div class="container">
+                <h2>Pourquoi choisir GTS ?</h2>
+                <div class="reasons-grid">
+                    <div class="reason-card">
+                        <i class="lucide-check-circle"></i>
+                        <div>
+                            <h3>Processus digitalisé et fluide</h3>
+                            <p>Notre approche digitale simplifie toutes les démarches administratives pour vous faire gagner du temps.</p>
+                        </div>
+                    </div>
+                    <div class="reason-card">
+                        <i class="lucide-check-circle"></i>
+                        <div>
+                            <h3>Accompagnement personnalisé</h3>
+                            <p>Chaque étudiant bénéficie d'un suivi individuel adapté à sa situation et ses besoins spécifiques.</p>
+                        </div>
+                    </div>
+                    <div class="reason-card">
+                        <i class="lucide-check-circle"></i>
+                        <div>
+                            <h3>Expertise locale à Fès et autres villes</h3>
+                            <p>Notre connaissance approfondie du terrain et des institutions locales vous garantit un accompagnement efficace.</p>
+                        </div>
+                    </div>
+                    <div class="reason-card">
+                        <i class="lucide-check-circle"></i>
+                        <div>
+                            <h3>Partenaire fiable</h3>
+                            <p>Nous travaillons en étroite collaboration avec les étudiants, leurs familles et les ambassades pour assurer une transition sans heurts.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials">
+            <div class="container">
+                <h2>Ils nous font confiance</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <i class="lucide-quote"></i>
+                        <p>GTS a rendu mon installation au Maroc simple et sans stress. Leur équipe m'a accompagnée à chaque étape, de mon inscription à l'université jusqu'à mon installation.</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce" alt="Aminata D.">
+                            <div>
+                                <div class="name">Aminata D.</div>
+                                <div class="role">Étudiante en Médecine</div>
+                                <div class="country">Sénégal</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <i class="lucide-quote"></i>
+                        <p>GTS est un partenaire fiable qui comprend les besoins des établissements et des étudiants. Leur professionnalisme facilite grandement notre processus d'admission.</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a" alt="Dr. Mohammed H.">
+                            <div>
+                                <div class="name">Dr. Mohammed H.</div>
+                                <div class="role">Directeur des Relations Internationales</div>
+                                <div class="country">Université de Fès</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <i class="lucide-quote"></i>
+                        <p>Le suivi régulier et la transparence de GTS nous rassurent complètement. Nous savons que notre fils est entre de bonnes mains.</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2" alt="M. et Mme Touré">
+                            <div>
+                                <div class="name">M. et Mme Touré</div>
+                                <div class="role">Parents d'étudiant</div>
+                                <div class="country">Mali</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Prêt à commencer votre aventure au Maroc ?</h2>
+                <p>Contactez-nous dès aujourd'hui pour discuter de vos besoins et découvrir comment nous pouvons faciliter votre intégration au Maroc.</p>
+                <a href="https://wa.me/votre_numero" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
+                    <i class="lucide-message-circle"></i>
+                    Nous contacter sur WhatsApp
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h2>Global Talaba Student</h2>
+                    <p>Votre partenaire d'intégration au Maroc</p>
+                </div>
+                <div class="footer-copyright">
+                    <p>© 2025 Global Talaba Student. Tous droits réservés.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="{%static 'js/script.js'%}"></script>
+</body>
+</html> 
